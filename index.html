@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Editable university business research project website draft."
+      content="University research project website on social media marketing and business growth stability among Klang Valley F&B small businesses."
     />
     <title>Digital Growth | F&B Small-Business Research</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260601-fnb4" />
+    <link rel="stylesheet" href="./styles.css?v=20260604-fnb35" />
   </head>
   <body>
     <div class="announcement" id="announcement"></div>
@@ -39,7 +39,7 @@
           <h1 id="researchTitle"></h1>
           <p id="researchSummary"></p>
           <div class="button-row">
-            <a class="button button-primary" href="#journey">EXPLORE THE JOURNEY</a>
+            <a class="button button-primary" href="#research-content">EXPLORE THE RESEARCH</a>
             <a class="button button-secondary" id="heroQuestionnaire" href="#questionnaire">GO TO QUESTIONNAIRE</a>
           </div>
         </div>
@@ -78,22 +78,10 @@
         <img id="aboutImage" alt="Independent cafe interior" />
       </section>
 
-      <section class="journey section" id="journey">
-        <div class="content-width">
-          <div class="journey-intro">
-            <div class="section-heading">
-              <span></span>
-              <h2>RESEARCH JOURNEY</h2>
-            </div>
-          </div>
-          <div class="journey-grid" id="journeyGrid"></div>
-        </div>
-      </section>
-
       <section class="research-content section" id="research-content">
         <div class="content-width">
           <div class="research-content-intro">
-            <div class="section-heading">
+            <div class="section-heading centered">
               <span></span>
               <h2>RESEARCH DOCUMENTATION</h2>
             </div>
@@ -127,28 +115,40 @@
       </section>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" id="footer">
       <div class="content-width footer-grid">
-        <div id="contact">
+        <div class="footer-main" id="contact">
           <a class="brand footer-brand" href="#home">
             <span class="logo-placeholder">UNIKL</span>
             <strong id="footerBrandName"></strong>
           </a>
           <p id="footerNote"></p>
+          <div class="footer-socials" id="footerSocials" aria-label="UniKL official links"></div>
+          <figure class="footer-quote">
+            <blockquote>Content is fire, social media is gasoline.</blockquote>
+            <figcaption>Jay Baer</figcaption>
+          </figure>
         </div>
-        <div>
+        <div class="footer-links">
           <h3>QUICK LINKS</h3>
           <nav id="footerNav" aria-label="Footer navigation"></nav>
         </div>
-        <div>
-          <h3>CONTACT</h3>
+        <div class="footer-contact">
+          <h3>LOCATION</h3>
           <p id="contactDetails"></p>
+          <iframe
+            class="footer-map"
+            title="UniKL Business School location on Google Maps"
+            src="https://www.google.com/maps?q=UniKL+Business+School,+Jalan+Sultan+Ismail,+Kuala+Lumpur&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
       <div class="copyright" id="copyright"></div>
     </footer>
 
-    <script src="./content.js?v=20260601-fnb4"></script>
-    <script src="./app.js?v=20260601-fnb4"></script>
+    <script src="./content.js?v=20260604-fnb35"></script>
+    <script src="./app.js?v=20260604-fnb35"></script>
   </body>
 </html>
