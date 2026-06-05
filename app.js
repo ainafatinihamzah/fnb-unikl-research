@@ -32,7 +32,7 @@ setText("referencesText", content.references);
 setText("footerBrandName", content.brandName);
 setText("footerNote", content.footerNote);
 setText("contactDetails", content.contact);
-setText("copyright", `Created by Aina F. | © ${content.year} ALL RIGHTS RESERVED`);
+setText("copyright", `© ${content.year} ALL RIGHTS RESERVED`);
 
 if (content.universityLogoImage) {
   document.querySelectorAll(".logo-placeholder").forEach((logo) => {
