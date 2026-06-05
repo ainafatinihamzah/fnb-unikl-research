@@ -81,9 +81,9 @@ window.SITE_CONTENT = {
       points: [],
       visual: "",
       charts: [
-        { src: "./images/var-smm.png?v=20260604-fnb5", caption: "Section B - Social Media Marketing (Independent Variable (IV): “Social media enables my business to reach a wider audience.”" },
+        { src: "./images/var-smm.png?v=20260604-fnb5", caption: "Section B - Social Media Marketing (Independent Variable): “Social media enables my business to reach a wider audience.”" },
         { src: "./images/var-ce.png?v=20260604-fnb5", caption: "Section C - Customer Engagement (Mediator): “My business receives frequent inquiries or messages through social media.”" },
-        { src: "./images/var-bgs.png?v=20260604-fnb5", caption: "Section D - Business Growth Stability (Dependent Variable (DV): “My business has a high rate of repeat customers.”" },
+        { src: "./images/var-bgs.png?v=20260604-fnb5", caption: "Section D - Business Growth Stability (Dependent Variable): “My business has a high rate of repeat customers.”" },
         { src: "./images/var-ds.png?v=20260604-fnb5", caption: "Section E - Digital Skills (Moderator): “I can easily adapt to new digital technologies.”" },
       ],
     },
